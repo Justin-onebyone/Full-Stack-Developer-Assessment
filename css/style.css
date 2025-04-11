@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    background-color: #ffffff;
+    color: #333; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    min-height: 100vh; 
+}
+
+.container { 
+    max-width: 450px; 
+    width: 90%; 
+    padding: 40px 20px 20px 20px; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    min-height: 90vh; 
+}
+
+
+header {
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 50px; 
+}
+
+.title-logo {
+    font-size: 2.8rem; 
+    font-weight: bold;
+    color: #F58A1F; 
+    letter-spacing: 2px; 
+    margin: 0; 
+}
+
+
+main {
+    width: 100%; 
+    text-align: center; 
+    flex-grow: 1; 
+}
+
+
+.greeting {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 3.2rem; 
+    color: #555555; 
+    font-weight: normal;
+    line-height: 1.2; 
+    margin-top: 0;
+    margin-bottom: 15px; 
+}
+
+
+.subtitle {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1rem;
+    color: #F58A1F; 
+    margin-bottom: 40px; 
+}
+
+.greeting, .subtitle{
+    text-align: left;
+}
+
+
+section {
+    width: 100%;
+    max-width: 380px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.form-input {
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: flex-end; 
+    gap: 15px; 
+    margin-bottom: 30px; 
+    cursor: text; 
+}
+
+.country-code-wrapper,
+.phone-input-wrapper {
+    border-bottom: 1px solid #F58A1F; 
+    padding-bottom: 8px;              
+    position: relative;               
+    transition: border-bottom-color 0.2s ease-in-out; 
+}
+
+.phone-input-wrapper {
+    flex-grow: 1; 
+}
+
+
+.input-group select {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    padding: 5px 0;    
+    width: 100%;       
+    margin: 0;          
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Style the input element */
+.input-group input[type="tel"] {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 1rem;
+    color: #333;
+    padding: 5px 0;       
+    width: 100%;     
+    margin: 0;          
+}
+.input-group input[type="tel"]::placeholder {
+    color: #aaaaaa;
+}
+
+#submit-button {
+    background-color: #F58A1F; 
+    color: #fff;
+    border: none;
+    padding: 15px 20px; 
+    font-size: 1rem;
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px; 
+    width: 100%; 
+}
+
+#submit-button:hover {
+    background-color: #e07b1a; 
+}
+
+
+footer {
+    margin-top: auto; 
+    padding-top: 30px; 
+    width: 100%;
+    text-align: center;
+    font-size: 0.8rem; 
+    color: #aaaaaa; 
+}
+
+footer a {
+    color: #aaaaaa; 
+    text-decoration: none;
+}
+footer a:hover {
+     text-decoration: underline; 
+}
+

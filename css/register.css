@@ -1,0 +1,148 @@
+body {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #ffffff; color: #333;
+    display: flex; justify-content: center; align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 640px; width: 100%;
+    padding: 40px 20px 20px 20px; box-sizing: border-box;
+    display: flex; flex-direction: column; align-items: center;
+    min-height: 90vh;
+}
+
+header { 
+    width: 100%; 
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.title-logo { 
+    font-size: 2.8rem; 
+    font-weight: bold; color: #F58A1F; 
+    letter-spacing: 2px; 
+    margin: 0; 
+}
+
+main { width: 100%; text-align: center; flex-grow: 1; }
+
+
+.registration-title {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    font-size: 2.5rem;
+    color: #555555;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.registration-subtitle {
+    font-size: 1rem;
+    color: #666666; 
+    margin-bottom: 30px;
+    font-style:italic;
+}
+
+.registration-title, .registration-subtitle {
+    text-align: left;
+}
+
+
+.registration-form {
+     width: 100%;
+     max-width: 380px; 
+     margin: 0 auto;
+     text-align: left; 
+}
+.form-group {
+    margin-bottom: 20px; 
+}
+.form-group label {
+    display: block; 
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #444; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"] 
+ {
+    width: 100%; 
+    padding: 12px 15px; 
+    border: 1px solid #cccccc; 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+.form-group input::placeholder {
+     color: #aaaaaa; 
+}
+
+
+.birthday-inputs {
+    display: flex;
+    gap: 10px; 
+}
+
+.birthday-inputs input {
+    width:22%; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+.birthday-inputs input:first-child { 
+    width: 50%; 
+}
+.birthday-inputs input:nth-child(2) { 
+    width: 50%; 
+}
+.birthday-inputs input:last-child { 
+    width: 100%; 
+}
+
+.form-group input[type="number"] {
+    padding: 12px 10px; 
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.error-text {
+    color: rgb(255, 119, 0);
+    font-size: 0.8em;
+    margin-top: 5px;
+    min-height: 1em; 
+    display: block;
+ }
+
+.checkbox-group {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+    margin-top: 10px;
+}
+ .checkbox-group input[type="checkbox"] {
+    width: auto; 
+    margin: 0; 
+    flex-shrink: 0; 
+ }
+ .checkbox-group label {
+    margin-bottom: 0;
+    font-weight: normal; 
+    font-size: 0.9em;
+    color: #555;
+ }
+
+.submit-btn {
+    background-color: #F58A1F; color: #fff; border: none;
+    padding: 15px 20px; font-size: 1rem; font-weight: bold;
+    border-radius: 25px; cursor: pointer; transition: background-color 0.3s;
+    margin-top: 30px; width: 100%;
+}
+.submit-btn:hover { background-color: #e07b1a; }
+
+footer { margin-top: auto; padding-top: 30px; width: 100%; text-align: center; font-size: 0.8rem; color: #aaaaaa; }
+footer a { color: #aaaaaa; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
